@@ -1,0 +1,4282 @@
+{
+ "domain": "minecraft",
+ "version": "26.1",
+ "source": "https://raw.githubusercontent.com/PrismarineJS/minecraft-data/master/data/pc/26.1/recipes.json",
+ "source_project": "PrismarineJS/minecraft-data",
+ "generated_by": "scripts/build_dataset.py",
+ "items_total": 1506,
+ "craftable_total": 887,
+ "edges": 2261,
+ "excluded_ambiguous": 439,
+ "excluded_craftable_leaf": 57,
+ "level_distribution": {
+  "1": 161,
+  "2": 158,
+  "3": 42,
+  "4": 9,
+  "5": 2
+ },
+ "items": {
+  "acacia_boat": {
+   "label": "acacia_boat",
+   "level": 2,
+   "leaves": [
+    "acacia_log"
+   ],
+   "direct": [
+    "acacia_planks"
+   ],
+   "display_name": "Acacia Boat"
+  },
+  "acacia_door": {
+   "label": "acacia_door",
+   "level": 2,
+   "leaves": [
+    "acacia_log"
+   ],
+   "direct": [
+    "acacia_planks"
+   ],
+   "display_name": "Acacia Door"
+  },
+  "acacia_pressure_plate": {
+   "label": "acacia_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "acacia_log"
+   ],
+   "direct": [
+    "acacia_planks"
+   ],
+   "display_name": "Acacia Pressure Plate"
+  },
+  "acacia_shelf": {
+   "label": "acacia_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_acacia_log"
+   ],
+   "direct": [
+    "stripped_acacia_log"
+   ],
+   "display_name": "Acacia Shelf"
+  },
+  "acacia_slab": {
+   "label": "acacia_slab",
+   "level": 2,
+   "leaves": [
+    "acacia_log"
+   ],
+   "direct": [
+    "acacia_planks"
+   ],
+   "display_name": "Acacia Slab"
+  },
+  "acacia_stairs": {
+   "label": "acacia_stairs",
+   "level": 2,
+   "leaves": [
+    "acacia_log"
+   ],
+   "direct": [
+    "acacia_planks"
+   ],
+   "display_name": "Acacia Stairs"
+  },
+  "acacia_trapdoor": {
+   "label": "acacia_trapdoor",
+   "level": 2,
+   "leaves": [
+    "acacia_log"
+   ],
+   "direct": [
+    "acacia_planks"
+   ],
+   "display_name": "Acacia Trapdoor"
+  },
+  "acacia_wood": {
+   "label": "acacia_wood",
+   "level": 1,
+   "leaves": [
+    "acacia_log"
+   ],
+   "direct": [
+    "acacia_log"
+   ],
+   "display_name": "Acacia Wood"
+  },
+  "amethyst_block": {
+   "label": "amethyst_block",
+   "level": 1,
+   "leaves": [
+    "amethyst_shard"
+   ],
+   "direct": [
+    "amethyst_shard"
+   ],
+   "display_name": "Block of Amethyst"
+  },
+  "andesite_slab": {
+   "label": "andesite_slab",
+   "level": 3,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "andesite"
+   ],
+   "display_name": "Andesite Slab"
+  },
+  "andesite_stairs": {
+   "label": "andesite_stairs",
+   "level": 3,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "andesite"
+   ],
+   "display_name": "Andesite Stairs"
+  },
+  "andesite_wall": {
+   "label": "andesite_wall",
+   "level": 3,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "andesite"
+   ],
+   "display_name": "Andesite Wall"
+  },
+  "bamboo_door": {
+   "label": "bamboo_door",
+   "level": 3,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_planks"
+   ],
+   "display_name": "Bamboo Door"
+  },
+  "bamboo_mosaic": {
+   "label": "bamboo_mosaic",
+   "level": 4,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_slab"
+   ],
+   "display_name": "Bamboo Mosaic"
+  },
+  "bamboo_mosaic_slab": {
+   "label": "bamboo_mosaic_slab",
+   "level": 5,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_mosaic"
+   ],
+   "display_name": "Bamboo Mosaic Slab"
+  },
+  "bamboo_mosaic_stairs": {
+   "label": "bamboo_mosaic_stairs",
+   "level": 5,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_mosaic"
+   ],
+   "display_name": "Bamboo Mosaic Stairs"
+  },
+  "bamboo_pressure_plate": {
+   "label": "bamboo_pressure_plate",
+   "level": 3,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_planks"
+   ],
+   "display_name": "Bamboo Pressure Plate"
+  },
+  "bamboo_raft": {
+   "label": "bamboo_raft",
+   "level": 3,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_planks"
+   ],
+   "display_name": "Bamboo Raft"
+  },
+  "bamboo_shelf": {
+   "label": "bamboo_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_bamboo_block"
+   ],
+   "direct": [
+    "stripped_bamboo_block"
+   ],
+   "display_name": "Bamboo Shelf"
+  },
+  "bamboo_slab": {
+   "label": "bamboo_slab",
+   "level": 3,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_planks"
+   ],
+   "display_name": "Bamboo Slab"
+  },
+  "bamboo_stairs": {
+   "label": "bamboo_stairs",
+   "level": 3,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_planks"
+   ],
+   "display_name": "Bamboo Stairs"
+  },
+  "bamboo_trapdoor": {
+   "label": "bamboo_trapdoor",
+   "level": 3,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_planks"
+   ],
+   "display_name": "Bamboo Trapdoor"
+  },
+  "beacon": {
+   "label": "beacon",
+   "level": 1,
+   "leaves": [
+    "glass",
+    "nether_star",
+    "obsidian"
+   ],
+   "direct": [
+    "glass",
+    "nether_star",
+    "obsidian"
+   ],
+   "display_name": "Beacon"
+  },
+  "birch_boat": {
+   "label": "birch_boat",
+   "level": 2,
+   "leaves": [
+    "birch_log"
+   ],
+   "direct": [
+    "birch_planks"
+   ],
+   "display_name": "Birch Boat"
+  },
+  "birch_door": {
+   "label": "birch_door",
+   "level": 2,
+   "leaves": [
+    "birch_log"
+   ],
+   "direct": [
+    "birch_planks"
+   ],
+   "display_name": "Birch Door"
+  },
+  "birch_pressure_plate": {
+   "label": "birch_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "birch_log"
+   ],
+   "direct": [
+    "birch_planks"
+   ],
+   "display_name": "Birch Pressure Plate"
+  },
+  "birch_shelf": {
+   "label": "birch_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_birch_log"
+   ],
+   "direct": [
+    "stripped_birch_log"
+   ],
+   "display_name": "Birch Shelf"
+  },
+  "birch_slab": {
+   "label": "birch_slab",
+   "level": 2,
+   "leaves": [
+    "birch_log"
+   ],
+   "direct": [
+    "birch_planks"
+   ],
+   "display_name": "Birch Slab"
+  },
+  "birch_stairs": {
+   "label": "birch_stairs",
+   "level": 2,
+   "leaves": [
+    "birch_log"
+   ],
+   "direct": [
+    "birch_planks"
+   ],
+   "display_name": "Birch Stairs"
+  },
+  "birch_trapdoor": {
+   "label": "birch_trapdoor",
+   "level": 2,
+   "leaves": [
+    "birch_log"
+   ],
+   "direct": [
+    "birch_planks"
+   ],
+   "display_name": "Birch Trapdoor"
+  },
+  "birch_wood": {
+   "label": "birch_wood",
+   "level": 1,
+   "leaves": [
+    "birch_log"
+   ],
+   "direct": [
+    "birch_log"
+   ],
+   "display_name": "Birch Wood"
+  },
+  "blackstone_slab": {
+   "label": "blackstone_slab",
+   "level": 1,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "blackstone"
+   ],
+   "display_name": "Blackstone Slab"
+  },
+  "blackstone_stairs": {
+   "label": "blackstone_stairs",
+   "level": 1,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "blackstone"
+   ],
+   "display_name": "Blackstone Stairs"
+  },
+  "blackstone_wall": {
+   "label": "blackstone_wall",
+   "level": 1,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "blackstone"
+   ],
+   "display_name": "Blackstone Wall"
+  },
+  "bone_block": {
+   "label": "bone_block",
+   "level": 2,
+   "leaves": [
+    "bone"
+   ],
+   "direct": [
+    "bone_meal"
+   ],
+   "display_name": "Bone Block"
+  },
+  "brick_slab": {
+   "label": "brick_slab",
+   "level": 2,
+   "leaves": [
+    "brick"
+   ],
+   "direct": [
+    "bricks"
+   ],
+   "display_name": "Brick Slab"
+  },
+  "brick_stairs": {
+   "label": "brick_stairs",
+   "level": 2,
+   "leaves": [
+    "brick"
+   ],
+   "direct": [
+    "bricks"
+   ],
+   "display_name": "Brick Stairs"
+  },
+  "brick_wall": {
+   "label": "brick_wall",
+   "level": 2,
+   "leaves": [
+    "brick"
+   ],
+   "direct": [
+    "bricks"
+   ],
+   "display_name": "Brick Wall"
+  },
+  "bricks": {
+   "label": "bricks",
+   "level": 1,
+   "leaves": [
+    "brick"
+   ],
+   "direct": [
+    "brick"
+   ],
+   "display_name": "Bricks"
+  },
+  "brown_stained_glass": {
+   "label": "brown_stained_glass",
+   "level": 2,
+   "leaves": [
+    "cocoa_beans",
+    "glass"
+   ],
+   "direct": [
+    "brown_dye",
+    "glass"
+   ],
+   "display_name": "Brown Stained Glass"
+  },
+  "brown_terracotta": {
+   "label": "brown_terracotta",
+   "level": 2,
+   "leaves": [
+    "cocoa_beans",
+    "terracotta"
+   ],
+   "direct": [
+    "brown_dye",
+    "terracotta"
+   ],
+   "display_name": "Brown Terracotta"
+  },
+  "bundle": {
+   "label": "bundle",
+   "level": 2,
+   "leaves": [
+    "rabbit_hide",
+    "string"
+   ],
+   "direct": [
+    "leather",
+    "string"
+   ],
+   "display_name": "Bundle"
+  },
+  "calibrated_sculk_sensor": {
+   "label": "calibrated_sculk_sensor",
+   "level": 1,
+   "leaves": [
+    "amethyst_shard",
+    "sculk_sensor"
+   ],
+   "direct": [
+    "amethyst_shard",
+    "sculk_sensor"
+   ],
+   "display_name": "Calibrated Sculk Sensor"
+  },
+  "candle": {
+   "label": "candle",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "string"
+   ],
+   "direct": [
+    "honeycomb",
+    "string"
+   ],
+   "display_name": "Candle"
+  },
+  "cherry_boat": {
+   "label": "cherry_boat",
+   "level": 2,
+   "leaves": [
+    "cherry_log"
+   ],
+   "direct": [
+    "cherry_planks"
+   ],
+   "display_name": "Cherry Boat"
+  },
+  "cherry_door": {
+   "label": "cherry_door",
+   "level": 2,
+   "leaves": [
+    "cherry_log"
+   ],
+   "direct": [
+    "cherry_planks"
+   ],
+   "display_name": "Cherry Door"
+  },
+  "cherry_pressure_plate": {
+   "label": "cherry_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "cherry_log"
+   ],
+   "direct": [
+    "cherry_planks"
+   ],
+   "display_name": "Cherry Pressure Plate"
+  },
+  "cherry_shelf": {
+   "label": "cherry_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_cherry_log"
+   ],
+   "direct": [
+    "stripped_cherry_log"
+   ],
+   "display_name": "Cherry Shelf"
+  },
+  "cherry_slab": {
+   "label": "cherry_slab",
+   "level": 2,
+   "leaves": [
+    "cherry_log"
+   ],
+   "direct": [
+    "cherry_planks"
+   ],
+   "display_name": "Cherry Slab"
+  },
+  "cherry_stairs": {
+   "label": "cherry_stairs",
+   "level": 2,
+   "leaves": [
+    "cherry_log"
+   ],
+   "direct": [
+    "cherry_planks"
+   ],
+   "display_name": "Cherry Stairs"
+  },
+  "cherry_trapdoor": {
+   "label": "cherry_trapdoor",
+   "level": 2,
+   "leaves": [
+    "cherry_log"
+   ],
+   "direct": [
+    "cherry_planks"
+   ],
+   "display_name": "Cherry Trapdoor"
+  },
+  "cherry_wood": {
+   "label": "cherry_wood",
+   "level": 1,
+   "leaves": [
+    "cherry_log"
+   ],
+   "direct": [
+    "cherry_log"
+   ],
+   "display_name": "Cherry Wood"
+  },
+  "chiseled_deepslate": {
+   "label": "chiseled_deepslate",
+   "level": 2,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "cobbled_deepslate_slab"
+   ],
+   "display_name": "Chiseled Deepslate"
+  },
+  "chiseled_nether_bricks": {
+   "label": "chiseled_nether_bricks",
+   "level": 3,
+   "leaves": [
+    "nether_brick"
+   ],
+   "direct": [
+    "nether_brick_slab"
+   ],
+   "display_name": "Chiseled Nether Bricks"
+  },
+  "chiseled_polished_blackstone": {
+   "label": "chiseled_polished_blackstone",
+   "level": 3,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "polished_blackstone_slab"
+   ],
+   "display_name": "Chiseled Polished Blackstone"
+  },
+  "chiseled_red_sandstone": {
+   "label": "chiseled_red_sandstone",
+   "level": 3,
+   "leaves": [
+    "red_sand"
+   ],
+   "direct": [
+    "red_sandstone_slab"
+   ],
+   "display_name": "Chiseled Red Sandstone"
+  },
+  "chiseled_resin_bricks": {
+   "label": "chiseled_resin_bricks",
+   "level": 3,
+   "leaves": [
+    "resin_brick"
+   ],
+   "direct": [
+    "resin_brick_slab"
+   ],
+   "display_name": "Chiseled Resin Bricks"
+  },
+  "chiseled_sandstone": {
+   "label": "chiseled_sandstone",
+   "level": 3,
+   "leaves": [
+    "sand"
+   ],
+   "direct": [
+    "sandstone_slab"
+   ],
+   "display_name": "Chiseled Sandstone"
+  },
+  "chiseled_stone_bricks": {
+   "label": "chiseled_stone_bricks",
+   "level": 3,
+   "leaves": [
+    "stone"
+   ],
+   "direct": [
+    "stone_brick_slab"
+   ],
+   "display_name": "Chiseled Stone Bricks"
+  },
+  "chiseled_tuff": {
+   "label": "chiseled_tuff",
+   "level": 2,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "tuff_slab"
+   ],
+   "display_name": "Chiseled Tuff"
+  },
+  "chiseled_tuff_bricks": {
+   "label": "chiseled_tuff_bricks",
+   "level": 4,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "tuff_brick_slab"
+   ],
+   "display_name": "Chiseled Tuff Bricks"
+  },
+  "clay": {
+   "label": "clay",
+   "level": 1,
+   "leaves": [
+    "clay_ball"
+   ],
+   "direct": [
+    "clay_ball"
+   ],
+   "display_name": "Clay"
+  },
+  "coarse_dirt": {
+   "label": "coarse_dirt",
+   "level": 1,
+   "leaves": [
+    "dirt",
+    "gravel"
+   ],
+   "direct": [
+    "dirt",
+    "gravel"
+   ],
+   "display_name": "Coarse Dirt"
+  },
+  "cobbled_deepslate_slab": {
+   "label": "cobbled_deepslate_slab",
+   "level": 1,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "cobbled_deepslate"
+   ],
+   "display_name": "Cobbled Deepslate Slab"
+  },
+  "cobbled_deepslate_stairs": {
+   "label": "cobbled_deepslate_stairs",
+   "level": 1,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "cobbled_deepslate"
+   ],
+   "display_name": "Cobbled Deepslate Stairs"
+  },
+  "cobbled_deepslate_wall": {
+   "label": "cobbled_deepslate_wall",
+   "level": 1,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "cobbled_deepslate"
+   ],
+   "display_name": "Cobbled Deepslate Wall"
+  },
+  "cobblestone_slab": {
+   "label": "cobblestone_slab",
+   "level": 1,
+   "leaves": [
+    "cobblestone"
+   ],
+   "direct": [
+    "cobblestone"
+   ],
+   "display_name": "Cobblestone Slab"
+  },
+  "cobblestone_stairs": {
+   "label": "cobblestone_stairs",
+   "level": 1,
+   "leaves": [
+    "cobblestone"
+   ],
+   "direct": [
+    "cobblestone"
+   ],
+   "display_name": "Cobblestone Stairs"
+  },
+  "cobblestone_wall": {
+   "label": "cobblestone_wall",
+   "level": 1,
+   "leaves": [
+    "cobblestone"
+   ],
+   "direct": [
+    "cobblestone"
+   ],
+   "display_name": "Cobblestone Wall"
+  },
+  "conduit": {
+   "label": "conduit",
+   "level": 1,
+   "leaves": [
+    "heart_of_the_sea",
+    "nautilus_shell"
+   ],
+   "direct": [
+    "heart_of_the_sea",
+    "nautilus_shell"
+   ],
+   "display_name": "Conduit"
+  },
+  "crimson_door": {
+   "label": "crimson_door",
+   "level": 2,
+   "leaves": [
+    "crimson_stem"
+   ],
+   "direct": [
+    "crimson_planks"
+   ],
+   "display_name": "Crimson Door"
+  },
+  "crimson_hyphae": {
+   "label": "crimson_hyphae",
+   "level": 1,
+   "leaves": [
+    "crimson_stem"
+   ],
+   "direct": [
+    "crimson_stem"
+   ],
+   "display_name": "Crimson Hyphae"
+  },
+  "crimson_pressure_plate": {
+   "label": "crimson_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "crimson_stem"
+   ],
+   "direct": [
+    "crimson_planks"
+   ],
+   "display_name": "Crimson Pressure Plate"
+  },
+  "crimson_shelf": {
+   "label": "crimson_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_crimson_stem"
+   ],
+   "direct": [
+    "stripped_crimson_stem"
+   ],
+   "display_name": "Crimson Shelf"
+  },
+  "crimson_slab": {
+   "label": "crimson_slab",
+   "level": 2,
+   "leaves": [
+    "crimson_stem"
+   ],
+   "direct": [
+    "crimson_planks"
+   ],
+   "display_name": "Crimson Slab"
+  },
+  "crimson_stairs": {
+   "label": "crimson_stairs",
+   "level": 2,
+   "leaves": [
+    "crimson_stem"
+   ],
+   "direct": [
+    "crimson_planks"
+   ],
+   "display_name": "Crimson Stairs"
+  },
+  "crimson_trapdoor": {
+   "label": "crimson_trapdoor",
+   "level": 2,
+   "leaves": [
+    "crimson_stem"
+   ],
+   "direct": [
+    "crimson_planks"
+   ],
+   "display_name": "Crimson Trapdoor"
+  },
+  "cut_red_sandstone": {
+   "label": "cut_red_sandstone",
+   "level": 2,
+   "leaves": [
+    "red_sand"
+   ],
+   "direct": [
+    "red_sandstone"
+   ],
+   "display_name": "Cut Red Sandstone"
+  },
+  "cut_red_sandstone_slab": {
+   "label": "cut_red_sandstone_slab",
+   "level": 3,
+   "leaves": [
+    "red_sand"
+   ],
+   "direct": [
+    "cut_red_sandstone"
+   ],
+   "display_name": "Cut Red Sandstone Slab"
+  },
+  "cut_sandstone": {
+   "label": "cut_sandstone",
+   "level": 2,
+   "leaves": [
+    "sand"
+   ],
+   "direct": [
+    "sandstone"
+   ],
+   "display_name": "Cut Sandstone"
+  },
+  "cut_sandstone_slab": {
+   "label": "cut_sandstone_slab",
+   "level": 3,
+   "leaves": [
+    "sand"
+   ],
+   "direct": [
+    "cut_sandstone"
+   ],
+   "display_name": "Cut Sandstone Slab"
+  },
+  "dark_oak_boat": {
+   "label": "dark_oak_boat",
+   "level": 2,
+   "leaves": [
+    "dark_oak_log"
+   ],
+   "direct": [
+    "dark_oak_planks"
+   ],
+   "display_name": "Dark Oak Boat"
+  },
+  "dark_oak_door": {
+   "label": "dark_oak_door",
+   "level": 2,
+   "leaves": [
+    "dark_oak_log"
+   ],
+   "direct": [
+    "dark_oak_planks"
+   ],
+   "display_name": "Dark Oak Door"
+  },
+  "dark_oak_pressure_plate": {
+   "label": "dark_oak_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "dark_oak_log"
+   ],
+   "direct": [
+    "dark_oak_planks"
+   ],
+   "display_name": "Dark Oak Pressure Plate"
+  },
+  "dark_oak_shelf": {
+   "label": "dark_oak_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_dark_oak_log"
+   ],
+   "direct": [
+    "stripped_dark_oak_log"
+   ],
+   "display_name": "Dark Oak Shelf"
+  },
+  "dark_oak_slab": {
+   "label": "dark_oak_slab",
+   "level": 2,
+   "leaves": [
+    "dark_oak_log"
+   ],
+   "direct": [
+    "dark_oak_planks"
+   ],
+   "display_name": "Dark Oak Slab"
+  },
+  "dark_oak_stairs": {
+   "label": "dark_oak_stairs",
+   "level": 2,
+   "leaves": [
+    "dark_oak_log"
+   ],
+   "direct": [
+    "dark_oak_planks"
+   ],
+   "display_name": "Dark Oak Stairs"
+  },
+  "dark_oak_trapdoor": {
+   "label": "dark_oak_trapdoor",
+   "level": 2,
+   "leaves": [
+    "dark_oak_log"
+   ],
+   "direct": [
+    "dark_oak_planks"
+   ],
+   "display_name": "Dark Oak Trapdoor"
+  },
+  "dark_oak_wood": {
+   "label": "dark_oak_wood",
+   "level": 1,
+   "leaves": [
+    "dark_oak_log"
+   ],
+   "direct": [
+    "dark_oak_log"
+   ],
+   "display_name": "Dark Oak Wood"
+  },
+  "decorated_pot": {
+   "label": "decorated_pot",
+   "level": 1,
+   "leaves": [
+    "brick"
+   ],
+   "direct": [
+    "brick"
+   ],
+   "display_name": "Decorated Pot"
+  },
+  "deepslate_brick_slab": {
+   "label": "deepslate_brick_slab",
+   "level": 3,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "deepslate_bricks"
+   ],
+   "display_name": "Deepslate Brick Slab"
+  },
+  "deepslate_brick_stairs": {
+   "label": "deepslate_brick_stairs",
+   "level": 3,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "deepslate_bricks"
+   ],
+   "display_name": "Deepslate Brick Stairs"
+  },
+  "deepslate_brick_wall": {
+   "label": "deepslate_brick_wall",
+   "level": 3,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "deepslate_bricks"
+   ],
+   "display_name": "Deepslate Brick Wall"
+  },
+  "deepslate_bricks": {
+   "label": "deepslate_bricks",
+   "level": 2,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "polished_deepslate"
+   ],
+   "display_name": "Deepslate Bricks"
+  },
+  "deepslate_tile_slab": {
+   "label": "deepslate_tile_slab",
+   "level": 4,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "deepslate_tiles"
+   ],
+   "display_name": "Deepslate Tile Slab"
+  },
+  "deepslate_tile_stairs": {
+   "label": "deepslate_tile_stairs",
+   "level": 4,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "deepslate_tiles"
+   ],
+   "display_name": "Deepslate Tile Stairs"
+  },
+  "deepslate_tile_wall": {
+   "label": "deepslate_tile_wall",
+   "level": 4,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "deepslate_tiles"
+   ],
+   "display_name": "Deepslate Tile Wall"
+  },
+  "deepslate_tiles": {
+   "label": "deepslate_tiles",
+   "level": 3,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "deepslate_bricks"
+   ],
+   "display_name": "Deepslate Tiles"
+  },
+  "diorite": {
+   "label": "diorite",
+   "level": 1,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "cobblestone",
+    "quartz"
+   ],
+   "display_name": "Diorite"
+  },
+  "diorite_slab": {
+   "label": "diorite_slab",
+   "level": 2,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "diorite"
+   ],
+   "display_name": "Diorite Slab"
+  },
+  "diorite_stairs": {
+   "label": "diorite_stairs",
+   "level": 2,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "diorite"
+   ],
+   "display_name": "Diorite Stairs"
+  },
+  "diorite_wall": {
+   "label": "diorite_wall",
+   "level": 2,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "diorite"
+   ],
+   "display_name": "Diorite Wall"
+  },
+  "dried_ghast": {
+   "label": "dried_ghast",
+   "level": 1,
+   "leaves": [
+    "ghast_tear",
+    "soul_sand"
+   ],
+   "direct": [
+    "ghast_tear",
+    "soul_sand"
+   ],
+   "display_name": "Dried Ghast"
+  },
+  "dripstone_block": {
+   "label": "dripstone_block",
+   "level": 1,
+   "leaves": [
+    "pointed_dripstone"
+   ],
+   "direct": [
+    "pointed_dripstone"
+   ],
+   "display_name": "Dripstone Block"
+  },
+  "end_crystal": {
+   "label": "end_crystal",
+   "level": 3,
+   "leaves": [
+    "blaze_rod",
+    "ender_pearl",
+    "ghast_tear",
+    "glass"
+   ],
+   "direct": [
+    "ender_eye",
+    "ghast_tear",
+    "glass"
+   ],
+   "display_name": "End Crystal"
+  },
+  "end_rod": {
+   "label": "end_rod",
+   "level": 1,
+   "leaves": [
+    "blaze_rod",
+    "popped_chorus_fruit"
+   ],
+   "direct": [
+    "blaze_rod",
+    "popped_chorus_fruit"
+   ],
+   "display_name": "End Rod"
+  },
+  "end_stone_brick_slab": {
+   "label": "end_stone_brick_slab",
+   "level": 2,
+   "leaves": [
+    "end_stone"
+   ],
+   "direct": [
+    "end_stone_bricks"
+   ],
+   "display_name": "End Stone Brick Slab"
+  },
+  "end_stone_brick_stairs": {
+   "label": "end_stone_brick_stairs",
+   "level": 2,
+   "leaves": [
+    "end_stone"
+   ],
+   "direct": [
+    "end_stone_bricks"
+   ],
+   "display_name": "End Stone Brick Stairs"
+  },
+  "end_stone_brick_wall": {
+   "label": "end_stone_brick_wall",
+   "level": 2,
+   "leaves": [
+    "end_stone"
+   ],
+   "direct": [
+    "end_stone_bricks"
+   ],
+   "display_name": "End Stone Brick Wall"
+  },
+  "end_stone_bricks": {
+   "label": "end_stone_bricks",
+   "level": 1,
+   "leaves": [
+    "end_stone"
+   ],
+   "direct": [
+    "end_stone"
+   ],
+   "display_name": "End Stone Bricks"
+  },
+  "ender_chest": {
+   "label": "ender_chest",
+   "level": 3,
+   "leaves": [
+    "blaze_rod",
+    "ender_pearl",
+    "obsidian"
+   ],
+   "direct": [
+    "ender_eye",
+    "obsidian"
+   ],
+   "display_name": "Ender Chest"
+  },
+  "exposed_chiseled_copper": {
+   "label": "exposed_chiseled_copper",
+   "level": 3,
+   "leaves": [
+    "exposed_copper"
+   ],
+   "direct": [
+    "exposed_cut_copper_slab"
+   ],
+   "display_name": "Exposed Chiseled Copper"
+  },
+  "exposed_copper_grate": {
+   "label": "exposed_copper_grate",
+   "level": 1,
+   "leaves": [
+    "exposed_copper"
+   ],
+   "direct": [
+    "exposed_copper"
+   ],
+   "display_name": "Exposed Copper Grate"
+  },
+  "exposed_cut_copper": {
+   "label": "exposed_cut_copper",
+   "level": 1,
+   "leaves": [
+    "exposed_copper"
+   ],
+   "direct": [
+    "exposed_copper"
+   ],
+   "display_name": "Exposed Cut Copper"
+  },
+  "exposed_cut_copper_slab": {
+   "label": "exposed_cut_copper_slab",
+   "level": 2,
+   "leaves": [
+    "exposed_copper"
+   ],
+   "direct": [
+    "exposed_cut_copper"
+   ],
+   "display_name": "Exposed Cut Copper Slab"
+  },
+  "exposed_cut_copper_stairs": {
+   "label": "exposed_cut_copper_stairs",
+   "level": 2,
+   "leaves": [
+    "exposed_copper"
+   ],
+   "direct": [
+    "exposed_cut_copper"
+   ],
+   "display_name": "Exposed Cut Copper Stairs"
+  },
+  "flower_pot": {
+   "label": "flower_pot",
+   "level": 1,
+   "leaves": [
+    "brick"
+   ],
+   "direct": [
+    "brick"
+   ],
+   "display_name": "Flower Pot"
+  },
+  "glass_bottle": {
+   "label": "glass_bottle",
+   "level": 1,
+   "leaves": [
+    "glass"
+   ],
+   "direct": [
+    "glass"
+   ],
+   "display_name": "Glass Bottle"
+  },
+  "glass_pane": {
+   "label": "glass_pane",
+   "level": 1,
+   "leaves": [
+    "glass"
+   ],
+   "direct": [
+    "glass"
+   ],
+   "display_name": "Glass Pane"
+  },
+  "glowstone": {
+   "label": "glowstone",
+   "level": 1,
+   "leaves": [
+    "glowstone_dust"
+   ],
+   "direct": [
+    "glowstone_dust"
+   ],
+   "display_name": "Glowstone"
+  },
+  "granite_slab": {
+   "label": "granite_slab",
+   "level": 3,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "granite"
+   ],
+   "display_name": "Granite Slab"
+  },
+  "granite_stairs": {
+   "label": "granite_stairs",
+   "level": 3,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "granite"
+   ],
+   "display_name": "Granite Stairs"
+  },
+  "granite_wall": {
+   "label": "granite_wall",
+   "level": 3,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "granite"
+   ],
+   "display_name": "Granite Wall"
+  },
+  "green_stained_glass": {
+   "label": "green_stained_glass",
+   "level": 1,
+   "leaves": [
+    "glass",
+    "green_dye"
+   ],
+   "direct": [
+    "glass",
+    "green_dye"
+   ],
+   "display_name": "Green Stained Glass"
+  },
+  "green_terracotta": {
+   "label": "green_terracotta",
+   "level": 1,
+   "leaves": [
+    "green_dye",
+    "terracotta"
+   ],
+   "direct": [
+    "green_dye",
+    "terracotta"
+   ],
+   "display_name": "Green Terracotta"
+  },
+  "honeycomb_block": {
+   "label": "honeycomb_block",
+   "level": 1,
+   "leaves": [
+    "honeycomb"
+   ],
+   "direct": [
+    "honeycomb"
+   ],
+   "display_name": "Honeycomb Block"
+  },
+  "jungle_boat": {
+   "label": "jungle_boat",
+   "level": 2,
+   "leaves": [
+    "jungle_log"
+   ],
+   "direct": [
+    "jungle_planks"
+   ],
+   "display_name": "Jungle Boat"
+  },
+  "jungle_door": {
+   "label": "jungle_door",
+   "level": 2,
+   "leaves": [
+    "jungle_log"
+   ],
+   "direct": [
+    "jungle_planks"
+   ],
+   "display_name": "Jungle Door"
+  },
+  "jungle_pressure_plate": {
+   "label": "jungle_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "jungle_log"
+   ],
+   "direct": [
+    "jungle_planks"
+   ],
+   "display_name": "Jungle Pressure Plate"
+  },
+  "jungle_shelf": {
+   "label": "jungle_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_jungle_log"
+   ],
+   "direct": [
+    "stripped_jungle_log"
+   ],
+   "display_name": "Jungle Shelf"
+  },
+  "jungle_slab": {
+   "label": "jungle_slab",
+   "level": 2,
+   "leaves": [
+    "jungle_log"
+   ],
+   "direct": [
+    "jungle_planks"
+   ],
+   "display_name": "Jungle Slab"
+  },
+  "jungle_stairs": {
+   "label": "jungle_stairs",
+   "level": 2,
+   "leaves": [
+    "jungle_log"
+   ],
+   "direct": [
+    "jungle_planks"
+   ],
+   "display_name": "Jungle Stairs"
+  },
+  "jungle_trapdoor": {
+   "label": "jungle_trapdoor",
+   "level": 2,
+   "leaves": [
+    "jungle_log"
+   ],
+   "direct": [
+    "jungle_planks"
+   ],
+   "display_name": "Jungle Trapdoor"
+  },
+  "jungle_wood": {
+   "label": "jungle_wood",
+   "level": 1,
+   "leaves": [
+    "jungle_log"
+   ],
+   "direct": [
+    "jungle_log"
+   ],
+   "display_name": "Jungle Wood"
+  },
+  "lead": {
+   "label": "lead",
+   "level": 1,
+   "leaves": [
+    "string"
+   ],
+   "direct": [
+    "string"
+   ],
+   "display_name": "Lead"
+  },
+  "leather": {
+   "label": "leather",
+   "level": 1,
+   "leaves": [
+    "rabbit_hide"
+   ],
+   "direct": [
+    "rabbit_hide"
+   ],
+   "display_name": "Leather"
+  },
+  "leather_boots": {
+   "label": "leather_boots",
+   "level": 2,
+   "leaves": [
+    "rabbit_hide"
+   ],
+   "direct": [
+    "leather"
+   ],
+   "display_name": "Leather Boots"
+  },
+  "leather_chestplate": {
+   "label": "leather_chestplate",
+   "level": 2,
+   "leaves": [
+    "rabbit_hide"
+   ],
+   "direct": [
+    "leather"
+   ],
+   "display_name": "Leather Tunic"
+  },
+  "leather_helmet": {
+   "label": "leather_helmet",
+   "level": 2,
+   "leaves": [
+    "rabbit_hide"
+   ],
+   "direct": [
+    "leather"
+   ],
+   "display_name": "Leather Cap"
+  },
+  "leather_horse_armor": {
+   "label": "leather_horse_armor",
+   "level": 2,
+   "leaves": [
+    "rabbit_hide"
+   ],
+   "direct": [
+    "leather"
+   ],
+   "display_name": "Leather Horse Armor"
+  },
+  "leather_leggings": {
+   "label": "leather_leggings",
+   "level": 2,
+   "leaves": [
+    "rabbit_hide"
+   ],
+   "direct": [
+    "leather"
+   ],
+   "display_name": "Leather Pants"
+  },
+  "mace": {
+   "label": "mace",
+   "level": 1,
+   "leaves": [
+    "breeze_rod",
+    "heavy_core"
+   ],
+   "direct": [
+    "breeze_rod",
+    "heavy_core"
+   ],
+   "display_name": "Mace"
+  },
+  "mangrove_boat": {
+   "label": "mangrove_boat",
+   "level": 2,
+   "leaves": [
+    "mangrove_log"
+   ],
+   "direct": [
+    "mangrove_planks"
+   ],
+   "display_name": "Mangrove Boat"
+  },
+  "mangrove_door": {
+   "label": "mangrove_door",
+   "level": 2,
+   "leaves": [
+    "mangrove_log"
+   ],
+   "direct": [
+    "mangrove_planks"
+   ],
+   "display_name": "Mangrove Door"
+  },
+  "mangrove_pressure_plate": {
+   "label": "mangrove_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "mangrove_log"
+   ],
+   "direct": [
+    "mangrove_planks"
+   ],
+   "display_name": "Mangrove Pressure Plate"
+  },
+  "mangrove_shelf": {
+   "label": "mangrove_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_mangrove_log"
+   ],
+   "direct": [
+    "stripped_mangrove_log"
+   ],
+   "display_name": "Mangrove Shelf"
+  },
+  "mangrove_slab": {
+   "label": "mangrove_slab",
+   "level": 2,
+   "leaves": [
+    "mangrove_log"
+   ],
+   "direct": [
+    "mangrove_planks"
+   ],
+   "display_name": "Mangrove Slab"
+  },
+  "mangrove_stairs": {
+   "label": "mangrove_stairs",
+   "level": 2,
+   "leaves": [
+    "mangrove_log"
+   ],
+   "direct": [
+    "mangrove_planks"
+   ],
+   "display_name": "Mangrove Stairs"
+  },
+  "mangrove_trapdoor": {
+   "label": "mangrove_trapdoor",
+   "level": 2,
+   "leaves": [
+    "mangrove_log"
+   ],
+   "direct": [
+    "mangrove_planks"
+   ],
+   "display_name": "Mangrove Trapdoor"
+  },
+  "mangrove_wood": {
+   "label": "mangrove_wood",
+   "level": 1,
+   "leaves": [
+    "mangrove_log"
+   ],
+   "direct": [
+    "mangrove_log"
+   ],
+   "display_name": "Mangrove Wood"
+  },
+  "moss_carpet": {
+   "label": "moss_carpet",
+   "level": 1,
+   "leaves": [
+    "moss_block"
+   ],
+   "direct": [
+    "moss_block"
+   ],
+   "display_name": "Moss Carpet"
+  },
+  "nether_brick_fence": {
+   "label": "nether_brick_fence",
+   "level": 2,
+   "leaves": [
+    "nether_brick"
+   ],
+   "direct": [
+    "nether_brick",
+    "nether_bricks"
+   ],
+   "display_name": "Nether Brick Fence"
+  },
+  "nether_brick_slab": {
+   "label": "nether_brick_slab",
+   "level": 2,
+   "leaves": [
+    "nether_brick"
+   ],
+   "direct": [
+    "nether_bricks"
+   ],
+   "display_name": "Nether Brick Slab"
+  },
+  "nether_brick_stairs": {
+   "label": "nether_brick_stairs",
+   "level": 2,
+   "leaves": [
+    "nether_brick"
+   ],
+   "direct": [
+    "nether_bricks"
+   ],
+   "display_name": "Nether Brick Stairs"
+  },
+  "nether_brick_wall": {
+   "label": "nether_brick_wall",
+   "level": 2,
+   "leaves": [
+    "nether_brick"
+   ],
+   "direct": [
+    "nether_bricks"
+   ],
+   "display_name": "Nether Brick Wall"
+  },
+  "nether_bricks": {
+   "label": "nether_bricks",
+   "level": 1,
+   "leaves": [
+    "nether_brick"
+   ],
+   "direct": [
+    "nether_brick"
+   ],
+   "display_name": "Nether Bricks"
+  },
+  "oak_boat": {
+   "label": "oak_boat",
+   "level": 2,
+   "leaves": [
+    "oak_log"
+   ],
+   "direct": [
+    "oak_planks"
+   ],
+   "display_name": "Oak Boat"
+  },
+  "oak_door": {
+   "label": "oak_door",
+   "level": 2,
+   "leaves": [
+    "oak_log"
+   ],
+   "direct": [
+    "oak_planks"
+   ],
+   "display_name": "Oak Door"
+  },
+  "oak_pressure_plate": {
+   "label": "oak_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "oak_log"
+   ],
+   "direct": [
+    "oak_planks"
+   ],
+   "display_name": "Oak Pressure Plate"
+  },
+  "oak_shelf": {
+   "label": "oak_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_oak_log"
+   ],
+   "direct": [
+    "stripped_oak_log"
+   ],
+   "display_name": "Oak Shelf"
+  },
+  "oak_slab": {
+   "label": "oak_slab",
+   "level": 2,
+   "leaves": [
+    "oak_log"
+   ],
+   "direct": [
+    "oak_planks"
+   ],
+   "display_name": "Oak Slab"
+  },
+  "oak_stairs": {
+   "label": "oak_stairs",
+   "level": 2,
+   "leaves": [
+    "oak_log"
+   ],
+   "direct": [
+    "oak_planks"
+   ],
+   "display_name": "Oak Stairs"
+  },
+  "oak_trapdoor": {
+   "label": "oak_trapdoor",
+   "level": 2,
+   "leaves": [
+    "oak_log"
+   ],
+   "direct": [
+    "oak_planks"
+   ],
+   "display_name": "Oak Trapdoor"
+  },
+  "oak_wood": {
+   "label": "oak_wood",
+   "level": 1,
+   "leaves": [
+    "oak_log"
+   ],
+   "direct": [
+    "oak_log"
+   ],
+   "display_name": "Oak Wood"
+  },
+  "oxidized_chiseled_copper": {
+   "label": "oxidized_chiseled_copper",
+   "level": 3,
+   "leaves": [
+    "oxidized_copper"
+   ],
+   "direct": [
+    "oxidized_cut_copper_slab"
+   ],
+   "display_name": "Oxidized Chiseled Copper"
+  },
+  "oxidized_copper_grate": {
+   "label": "oxidized_copper_grate",
+   "level": 1,
+   "leaves": [
+    "oxidized_copper"
+   ],
+   "direct": [
+    "oxidized_copper"
+   ],
+   "display_name": "Oxidized Copper Grate"
+  },
+  "oxidized_cut_copper": {
+   "label": "oxidized_cut_copper",
+   "level": 1,
+   "leaves": [
+    "oxidized_copper"
+   ],
+   "direct": [
+    "oxidized_copper"
+   ],
+   "display_name": "Oxidized Cut Copper"
+  },
+  "oxidized_cut_copper_slab": {
+   "label": "oxidized_cut_copper_slab",
+   "level": 2,
+   "leaves": [
+    "oxidized_copper"
+   ],
+   "direct": [
+    "oxidized_cut_copper"
+   ],
+   "display_name": "Oxidized Cut Copper Slab"
+  },
+  "oxidized_cut_copper_stairs": {
+   "label": "oxidized_cut_copper_stairs",
+   "level": 2,
+   "leaves": [
+    "oxidized_copper"
+   ],
+   "direct": [
+    "oxidized_cut_copper"
+   ],
+   "display_name": "Oxidized Cut Copper Stairs"
+  },
+  "pale_moss_carpet": {
+   "label": "pale_moss_carpet",
+   "level": 1,
+   "leaves": [
+    "pale_moss_block"
+   ],
+   "direct": [
+    "pale_moss_block"
+   ],
+   "display_name": "Pale Moss Carpet"
+  },
+  "pale_oak_boat": {
+   "label": "pale_oak_boat",
+   "level": 2,
+   "leaves": [
+    "pale_oak_log"
+   ],
+   "direct": [
+    "pale_oak_planks"
+   ],
+   "display_name": "Pale Oak Boat"
+  },
+  "pale_oak_door": {
+   "label": "pale_oak_door",
+   "level": 2,
+   "leaves": [
+    "pale_oak_log"
+   ],
+   "direct": [
+    "pale_oak_planks"
+   ],
+   "display_name": "Pale Oak Door"
+  },
+  "pale_oak_pressure_plate": {
+   "label": "pale_oak_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "pale_oak_log"
+   ],
+   "direct": [
+    "pale_oak_planks"
+   ],
+   "display_name": "Pale Oak Pressure Plate"
+  },
+  "pale_oak_shelf": {
+   "label": "pale_oak_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_pale_oak_log"
+   ],
+   "direct": [
+    "stripped_pale_oak_log"
+   ],
+   "display_name": "Pale Oak Shelf"
+  },
+  "pale_oak_slab": {
+   "label": "pale_oak_slab",
+   "level": 2,
+   "leaves": [
+    "pale_oak_log"
+   ],
+   "direct": [
+    "pale_oak_planks"
+   ],
+   "display_name": "Pale Oak Slab"
+  },
+  "pale_oak_stairs": {
+   "label": "pale_oak_stairs",
+   "level": 2,
+   "leaves": [
+    "pale_oak_log"
+   ],
+   "direct": [
+    "pale_oak_planks"
+   ],
+   "display_name": "Pale Oak Stairs"
+  },
+  "pale_oak_trapdoor": {
+   "label": "pale_oak_trapdoor",
+   "level": 2,
+   "leaves": [
+    "pale_oak_log"
+   ],
+   "direct": [
+    "pale_oak_planks"
+   ],
+   "display_name": "Pale Oak Trapdoor"
+  },
+  "pale_oak_wood": {
+   "label": "pale_oak_wood",
+   "level": 1,
+   "leaves": [
+    "pale_oak_log"
+   ],
+   "direct": [
+    "pale_oak_log"
+   ],
+   "display_name": "Pale Oak Wood"
+  },
+  "paper": {
+   "label": "paper",
+   "level": 1,
+   "leaves": [
+    "sugar_cane"
+   ],
+   "direct": [
+    "sugar_cane"
+   ],
+   "display_name": "Paper"
+  },
+  "polished_andesite": {
+   "label": "polished_andesite",
+   "level": 3,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "andesite"
+   ],
+   "display_name": "Polished Andesite"
+  },
+  "polished_andesite_slab": {
+   "label": "polished_andesite_slab",
+   "level": 4,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "polished_andesite"
+   ],
+   "display_name": "Polished Andesite Slab"
+  },
+  "polished_andesite_stairs": {
+   "label": "polished_andesite_stairs",
+   "level": 4,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "polished_andesite"
+   ],
+   "display_name": "Polished Andesite Stairs"
+  },
+  "polished_basalt": {
+   "label": "polished_basalt",
+   "level": 1,
+   "leaves": [
+    "basalt"
+   ],
+   "direct": [
+    "basalt"
+   ],
+   "display_name": "Polished Basalt"
+  },
+  "polished_blackstone": {
+   "label": "polished_blackstone",
+   "level": 1,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "blackstone"
+   ],
+   "display_name": "Polished Blackstone"
+  },
+  "polished_blackstone_brick_slab": {
+   "label": "polished_blackstone_brick_slab",
+   "level": 3,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "polished_blackstone_bricks"
+   ],
+   "display_name": "Polished Blackstone Brick Slab"
+  },
+  "polished_blackstone_brick_stairs": {
+   "label": "polished_blackstone_brick_stairs",
+   "level": 3,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "polished_blackstone_bricks"
+   ],
+   "display_name": "Polished Blackstone Brick Stairs"
+  },
+  "polished_blackstone_brick_wall": {
+   "label": "polished_blackstone_brick_wall",
+   "level": 3,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "polished_blackstone_bricks"
+   ],
+   "display_name": "Polished Blackstone Brick Wall"
+  },
+  "polished_blackstone_bricks": {
+   "label": "polished_blackstone_bricks",
+   "level": 2,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "polished_blackstone"
+   ],
+   "display_name": "Polished Blackstone Bricks"
+  },
+  "polished_blackstone_pressure_plate": {
+   "label": "polished_blackstone_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "polished_blackstone"
+   ],
+   "display_name": "Polished Blackstone Pressure Plate"
+  },
+  "polished_blackstone_slab": {
+   "label": "polished_blackstone_slab",
+   "level": 2,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "polished_blackstone"
+   ],
+   "display_name": "Polished Blackstone Slab"
+  },
+  "polished_blackstone_stairs": {
+   "label": "polished_blackstone_stairs",
+   "level": 2,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "polished_blackstone"
+   ],
+   "display_name": "Polished Blackstone Stairs"
+  },
+  "polished_blackstone_wall": {
+   "label": "polished_blackstone_wall",
+   "level": 2,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "polished_blackstone"
+   ],
+   "display_name": "Polished Blackstone Wall"
+  },
+  "polished_deepslate": {
+   "label": "polished_deepslate",
+   "level": 1,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "cobbled_deepslate"
+   ],
+   "display_name": "Polished Deepslate"
+  },
+  "polished_deepslate_slab": {
+   "label": "polished_deepslate_slab",
+   "level": 2,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "polished_deepslate"
+   ],
+   "display_name": "Polished Deepslate Slab"
+  },
+  "polished_deepslate_stairs": {
+   "label": "polished_deepslate_stairs",
+   "level": 2,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "polished_deepslate"
+   ],
+   "display_name": "Polished Deepslate Stairs"
+  },
+  "polished_deepslate_wall": {
+   "label": "polished_deepslate_wall",
+   "level": 2,
+   "leaves": [
+    "cobbled_deepslate"
+   ],
+   "direct": [
+    "polished_deepslate"
+   ],
+   "display_name": "Polished Deepslate Wall"
+  },
+  "polished_diorite": {
+   "label": "polished_diorite",
+   "level": 2,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "diorite"
+   ],
+   "display_name": "Polished Diorite"
+  },
+  "polished_diorite_slab": {
+   "label": "polished_diorite_slab",
+   "level": 3,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "polished_diorite"
+   ],
+   "display_name": "Polished Diorite Slab"
+  },
+  "polished_diorite_stairs": {
+   "label": "polished_diorite_stairs",
+   "level": 3,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "polished_diorite"
+   ],
+   "display_name": "Polished Diorite Stairs"
+  },
+  "polished_granite": {
+   "label": "polished_granite",
+   "level": 3,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "granite"
+   ],
+   "display_name": "Polished Granite"
+  },
+  "polished_granite_slab": {
+   "label": "polished_granite_slab",
+   "level": 4,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "polished_granite"
+   ],
+   "display_name": "Polished Granite Slab"
+  },
+  "polished_granite_stairs": {
+   "label": "polished_granite_stairs",
+   "level": 4,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "polished_granite"
+   ],
+   "display_name": "Polished Granite Stairs"
+  },
+  "polished_tuff": {
+   "label": "polished_tuff",
+   "level": 1,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "tuff"
+   ],
+   "display_name": "Polished Tuff"
+  },
+  "polished_tuff_slab": {
+   "label": "polished_tuff_slab",
+   "level": 2,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "polished_tuff"
+   ],
+   "display_name": "Polished Tuff Slab"
+  },
+  "polished_tuff_stairs": {
+   "label": "polished_tuff_stairs",
+   "level": 2,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "polished_tuff"
+   ],
+   "display_name": "Polished Tuff Stairs"
+  },
+  "polished_tuff_wall": {
+   "label": "polished_tuff_wall",
+   "level": 2,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "polished_tuff"
+   ],
+   "display_name": "Polished Tuff Wall"
+  },
+  "prismarine": {
+   "label": "prismarine",
+   "level": 1,
+   "leaves": [
+    "prismarine_shard"
+   ],
+   "direct": [
+    "prismarine_shard"
+   ],
+   "display_name": "Prismarine"
+  },
+  "prismarine_brick_slab": {
+   "label": "prismarine_brick_slab",
+   "level": 2,
+   "leaves": [
+    "prismarine_shard"
+   ],
+   "direct": [
+    "prismarine_bricks"
+   ],
+   "display_name": "Prismarine Brick Slab"
+  },
+  "prismarine_brick_stairs": {
+   "label": "prismarine_brick_stairs",
+   "level": 2,
+   "leaves": [
+    "prismarine_shard"
+   ],
+   "direct": [
+    "prismarine_bricks"
+   ],
+   "display_name": "Prismarine Brick Stairs"
+  },
+  "prismarine_slab": {
+   "label": "prismarine_slab",
+   "level": 2,
+   "leaves": [
+    "prismarine_shard"
+   ],
+   "direct": [
+    "prismarine"
+   ],
+   "display_name": "Prismarine Slab"
+  },
+  "prismarine_stairs": {
+   "label": "prismarine_stairs",
+   "level": 2,
+   "leaves": [
+    "prismarine_shard"
+   ],
+   "direct": [
+    "prismarine"
+   ],
+   "display_name": "Prismarine Stairs"
+  },
+  "prismarine_wall": {
+   "label": "prismarine_wall",
+   "level": 2,
+   "leaves": [
+    "prismarine_shard"
+   ],
+   "direct": [
+    "prismarine"
+   ],
+   "display_name": "Prismarine Wall"
+  },
+  "purpur_block": {
+   "label": "purpur_block",
+   "level": 1,
+   "leaves": [
+    "popped_chorus_fruit"
+   ],
+   "direct": [
+    "popped_chorus_fruit"
+   ],
+   "display_name": "Purpur Block"
+  },
+  "purpur_pillar": {
+   "label": "purpur_pillar",
+   "level": 3,
+   "leaves": [
+    "popped_chorus_fruit"
+   ],
+   "direct": [
+    "purpur_slab"
+   ],
+   "display_name": "Purpur Pillar"
+  },
+  "quartz_block": {
+   "label": "quartz_block",
+   "level": 1,
+   "leaves": [
+    "quartz"
+   ],
+   "direct": [
+    "quartz"
+   ],
+   "display_name": "Block of Quartz"
+  },
+  "quartz_bricks": {
+   "label": "quartz_bricks",
+   "level": 2,
+   "leaves": [
+    "quartz"
+   ],
+   "direct": [
+    "quartz_block"
+   ],
+   "display_name": "Quartz Bricks"
+  },
+  "quartz_pillar": {
+   "label": "quartz_pillar",
+   "level": 2,
+   "leaves": [
+    "quartz"
+   ],
+   "direct": [
+    "quartz_block"
+   ],
+   "display_name": "Quartz Pillar"
+  },
+  "red_nether_brick_slab": {
+   "label": "red_nether_brick_slab",
+   "level": 2,
+   "leaves": [
+    "nether_brick",
+    "nether_wart"
+   ],
+   "direct": [
+    "red_nether_bricks"
+   ],
+   "display_name": "Red Nether Brick Slab"
+  },
+  "red_nether_brick_stairs": {
+   "label": "red_nether_brick_stairs",
+   "level": 2,
+   "leaves": [
+    "nether_brick",
+    "nether_wart"
+   ],
+   "direct": [
+    "red_nether_bricks"
+   ],
+   "display_name": "Red Nether Brick Stairs"
+  },
+  "red_nether_brick_wall": {
+   "label": "red_nether_brick_wall",
+   "level": 2,
+   "leaves": [
+    "nether_brick",
+    "nether_wart"
+   ],
+   "direct": [
+    "red_nether_bricks"
+   ],
+   "display_name": "Red Nether Brick Wall"
+  },
+  "red_nether_bricks": {
+   "label": "red_nether_bricks",
+   "level": 1,
+   "leaves": [
+    "nether_brick",
+    "nether_wart"
+   ],
+   "direct": [
+    "nether_brick",
+    "nether_wart"
+   ],
+   "display_name": "Red Nether Bricks"
+  },
+  "red_sandstone": {
+   "label": "red_sandstone",
+   "level": 1,
+   "leaves": [
+    "red_sand"
+   ],
+   "direct": [
+    "red_sand"
+   ],
+   "display_name": "Red Sandstone"
+  },
+  "red_sandstone_wall": {
+   "label": "red_sandstone_wall",
+   "level": 2,
+   "leaves": [
+    "red_sand"
+   ],
+   "direct": [
+    "red_sandstone"
+   ],
+   "display_name": "Red Sandstone Wall"
+  },
+  "resin_brick_slab": {
+   "label": "resin_brick_slab",
+   "level": 2,
+   "leaves": [
+    "resin_brick"
+   ],
+   "direct": [
+    "resin_bricks"
+   ],
+   "display_name": "Resin Brick Slab"
+  },
+  "resin_brick_stairs": {
+   "label": "resin_brick_stairs",
+   "level": 2,
+   "leaves": [
+    "resin_brick"
+   ],
+   "direct": [
+    "resin_bricks"
+   ],
+   "display_name": "Resin Brick Stairs"
+  },
+  "resin_brick_wall": {
+   "label": "resin_brick_wall",
+   "level": 2,
+   "leaves": [
+    "resin_brick"
+   ],
+   "direct": [
+    "resin_bricks"
+   ],
+   "display_name": "Resin Brick Wall"
+  },
+  "resin_bricks": {
+   "label": "resin_bricks",
+   "level": 1,
+   "leaves": [
+    "resin_brick"
+   ],
+   "direct": [
+    "resin_brick"
+   ],
+   "display_name": "Resin Bricks"
+  },
+  "respawn_anchor": {
+   "label": "respawn_anchor",
+   "level": 2,
+   "leaves": [
+    "crying_obsidian",
+    "glowstone_dust"
+   ],
+   "direct": [
+    "crying_obsidian",
+    "glowstone"
+   ],
+   "display_name": "Respawn Anchor"
+  },
+  "sandstone": {
+   "label": "sandstone",
+   "level": 1,
+   "leaves": [
+    "sand"
+   ],
+   "direct": [
+    "sand"
+   ],
+   "display_name": "Sandstone"
+  },
+  "sandstone_wall": {
+   "label": "sandstone_wall",
+   "level": 2,
+   "leaves": [
+    "sand"
+   ],
+   "direct": [
+    "sandstone"
+   ],
+   "display_name": "Sandstone Wall"
+  },
+  "scaffolding": {
+   "label": "scaffolding",
+   "level": 1,
+   "leaves": [
+    "bamboo",
+    "string"
+   ],
+   "direct": [
+    "bamboo",
+    "string"
+   ],
+   "display_name": "Scaffolding"
+  },
+  "sea_lantern": {
+   "label": "sea_lantern",
+   "level": 1,
+   "leaves": [
+    "prismarine_crystals",
+    "prismarine_shard"
+   ],
+   "direct": [
+    "prismarine_crystals",
+    "prismarine_shard"
+   ],
+   "display_name": "Sea Lantern"
+  },
+  "smooth_quartz_slab": {
+   "label": "smooth_quartz_slab",
+   "level": 1,
+   "leaves": [
+    "smooth_quartz"
+   ],
+   "direct": [
+    "smooth_quartz"
+   ],
+   "display_name": "Smooth Quartz Slab"
+  },
+  "smooth_quartz_stairs": {
+   "label": "smooth_quartz_stairs",
+   "level": 1,
+   "leaves": [
+    "smooth_quartz"
+   ],
+   "direct": [
+    "smooth_quartz"
+   ],
+   "display_name": "Smooth Quartz Stairs"
+  },
+  "smooth_red_sandstone_slab": {
+   "label": "smooth_red_sandstone_slab",
+   "level": 1,
+   "leaves": [
+    "smooth_red_sandstone"
+   ],
+   "direct": [
+    "smooth_red_sandstone"
+   ],
+   "display_name": "Smooth Red Sandstone Slab"
+  },
+  "smooth_red_sandstone_stairs": {
+   "label": "smooth_red_sandstone_stairs",
+   "level": 1,
+   "leaves": [
+    "smooth_red_sandstone"
+   ],
+   "direct": [
+    "smooth_red_sandstone"
+   ],
+   "display_name": "Smooth Red Sandstone Stairs"
+  },
+  "smooth_sandstone_slab": {
+   "label": "smooth_sandstone_slab",
+   "level": 1,
+   "leaves": [
+    "smooth_sandstone"
+   ],
+   "direct": [
+    "smooth_sandstone"
+   ],
+   "display_name": "Smooth Sandstone Slab"
+  },
+  "smooth_sandstone_stairs": {
+   "label": "smooth_sandstone_stairs",
+   "level": 1,
+   "leaves": [
+    "smooth_sandstone"
+   ],
+   "direct": [
+    "smooth_sandstone"
+   ],
+   "display_name": "Smooth Sandstone Stairs"
+  },
+  "smooth_stone_slab": {
+   "label": "smooth_stone_slab",
+   "level": 1,
+   "leaves": [
+    "smooth_stone"
+   ],
+   "direct": [
+    "smooth_stone"
+   ],
+   "display_name": "Smooth Stone Slab"
+  },
+  "snow": {
+   "label": "snow",
+   "level": 2,
+   "leaves": [
+    "snowball"
+   ],
+   "direct": [
+    "snow_block"
+   ],
+   "display_name": "Snow"
+  },
+  "snow_block": {
+   "label": "snow_block",
+   "level": 1,
+   "leaves": [
+    "snowball"
+   ],
+   "direct": [
+    "snowball"
+   ],
+   "display_name": "Snow Block"
+  },
+  "spruce_boat": {
+   "label": "spruce_boat",
+   "level": 2,
+   "leaves": [
+    "spruce_log"
+   ],
+   "direct": [
+    "spruce_planks"
+   ],
+   "display_name": "Spruce Boat"
+  },
+  "spruce_door": {
+   "label": "spruce_door",
+   "level": 2,
+   "leaves": [
+    "spruce_log"
+   ],
+   "direct": [
+    "spruce_planks"
+   ],
+   "display_name": "Spruce Door"
+  },
+  "spruce_pressure_plate": {
+   "label": "spruce_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "spruce_log"
+   ],
+   "direct": [
+    "spruce_planks"
+   ],
+   "display_name": "Spruce Pressure Plate"
+  },
+  "spruce_shelf": {
+   "label": "spruce_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_spruce_log"
+   ],
+   "direct": [
+    "stripped_spruce_log"
+   ],
+   "display_name": "Spruce Shelf"
+  },
+  "spruce_slab": {
+   "label": "spruce_slab",
+   "level": 2,
+   "leaves": [
+    "spruce_log"
+   ],
+   "direct": [
+    "spruce_planks"
+   ],
+   "display_name": "Spruce Slab"
+  },
+  "spruce_stairs": {
+   "label": "spruce_stairs",
+   "level": 2,
+   "leaves": [
+    "spruce_log"
+   ],
+   "direct": [
+    "spruce_planks"
+   ],
+   "display_name": "Spruce Stairs"
+  },
+  "spruce_trapdoor": {
+   "label": "spruce_trapdoor",
+   "level": 2,
+   "leaves": [
+    "spruce_log"
+   ],
+   "direct": [
+    "spruce_planks"
+   ],
+   "display_name": "Spruce Trapdoor"
+  },
+  "spruce_wood": {
+   "label": "spruce_wood",
+   "level": 1,
+   "leaves": [
+    "spruce_log"
+   ],
+   "direct": [
+    "spruce_log"
+   ],
+   "display_name": "Spruce Wood"
+  },
+  "stone_brick_slab": {
+   "label": "stone_brick_slab",
+   "level": 2,
+   "leaves": [
+    "stone"
+   ],
+   "direct": [
+    "stone_bricks"
+   ],
+   "display_name": "Stone Brick Slab"
+  },
+  "stone_brick_stairs": {
+   "label": "stone_brick_stairs",
+   "level": 2,
+   "leaves": [
+    "stone"
+   ],
+   "direct": [
+    "stone_bricks"
+   ],
+   "display_name": "Stone Brick Stairs"
+  },
+  "stone_brick_wall": {
+   "label": "stone_brick_wall",
+   "level": 2,
+   "leaves": [
+    "stone"
+   ],
+   "direct": [
+    "stone_bricks"
+   ],
+   "display_name": "Stone Brick Wall"
+  },
+  "stone_bricks": {
+   "label": "stone_bricks",
+   "level": 1,
+   "leaves": [
+    "stone"
+   ],
+   "direct": [
+    "stone"
+   ],
+   "display_name": "Stone Bricks"
+  },
+  "stone_pressure_plate": {
+   "label": "stone_pressure_plate",
+   "level": 1,
+   "leaves": [
+    "stone"
+   ],
+   "direct": [
+    "stone"
+   ],
+   "display_name": "Stone Pressure Plate"
+  },
+  "stone_slab": {
+   "label": "stone_slab",
+   "level": 1,
+   "leaves": [
+    "stone"
+   ],
+   "direct": [
+    "stone"
+   ],
+   "display_name": "Stone Slab"
+  },
+  "stone_stairs": {
+   "label": "stone_stairs",
+   "level": 1,
+   "leaves": [
+    "stone"
+   ],
+   "direct": [
+    "stone"
+   ],
+   "display_name": "Stone Stairs"
+  },
+  "stripped_acacia_wood": {
+   "label": "stripped_acacia_wood",
+   "level": 1,
+   "leaves": [
+    "stripped_acacia_log"
+   ],
+   "direct": [
+    "stripped_acacia_log"
+   ],
+   "display_name": "Stripped Acacia Wood"
+  },
+  "stripped_birch_wood": {
+   "label": "stripped_birch_wood",
+   "level": 1,
+   "leaves": [
+    "stripped_birch_log"
+   ],
+   "direct": [
+    "stripped_birch_log"
+   ],
+   "display_name": "Stripped Birch Wood"
+  },
+  "stripped_cherry_wood": {
+   "label": "stripped_cherry_wood",
+   "level": 1,
+   "leaves": [
+    "stripped_cherry_log"
+   ],
+   "direct": [
+    "stripped_cherry_log"
+   ],
+   "display_name": "Stripped Cherry Wood"
+  },
+  "stripped_crimson_hyphae": {
+   "label": "stripped_crimson_hyphae",
+   "level": 1,
+   "leaves": [
+    "stripped_crimson_stem"
+   ],
+   "direct": [
+    "stripped_crimson_stem"
+   ],
+   "display_name": "Stripped Crimson Hyphae"
+  },
+  "stripped_dark_oak_wood": {
+   "label": "stripped_dark_oak_wood",
+   "level": 1,
+   "leaves": [
+    "stripped_dark_oak_log"
+   ],
+   "direct": [
+    "stripped_dark_oak_log"
+   ],
+   "display_name": "Stripped Dark Oak Wood"
+  },
+  "stripped_jungle_wood": {
+   "label": "stripped_jungle_wood",
+   "level": 1,
+   "leaves": [
+    "stripped_jungle_log"
+   ],
+   "direct": [
+    "stripped_jungle_log"
+   ],
+   "display_name": "Stripped Jungle Wood"
+  },
+  "stripped_mangrove_wood": {
+   "label": "stripped_mangrove_wood",
+   "level": 1,
+   "leaves": [
+    "stripped_mangrove_log"
+   ],
+   "direct": [
+    "stripped_mangrove_log"
+   ],
+   "display_name": "Stripped Mangrove Wood"
+  },
+  "stripped_oak_wood": {
+   "label": "stripped_oak_wood",
+   "level": 1,
+   "leaves": [
+    "stripped_oak_log"
+   ],
+   "direct": [
+    "stripped_oak_log"
+   ],
+   "display_name": "Stripped Oak Wood"
+  },
+  "stripped_pale_oak_wood": {
+   "label": "stripped_pale_oak_wood",
+   "level": 1,
+   "leaves": [
+    "stripped_pale_oak_log"
+   ],
+   "direct": [
+    "stripped_pale_oak_log"
+   ],
+   "display_name": "Stripped Pale Oak Wood"
+  },
+  "stripped_spruce_wood": {
+   "label": "stripped_spruce_wood",
+   "level": 1,
+   "leaves": [
+    "stripped_spruce_log"
+   ],
+   "direct": [
+    "stripped_spruce_log"
+   ],
+   "display_name": "Stripped Spruce Wood"
+  },
+  "stripped_warped_hyphae": {
+   "label": "stripped_warped_hyphae",
+   "level": 1,
+   "leaves": [
+    "stripped_warped_stem"
+   ],
+   "direct": [
+    "stripped_warped_stem"
+   ],
+   "display_name": "Stripped Warped Hyphae"
+  },
+  "tinted_glass": {
+   "label": "tinted_glass",
+   "level": 1,
+   "leaves": [
+    "amethyst_shard",
+    "glass"
+   ],
+   "direct": [
+    "amethyst_shard",
+    "glass"
+   ],
+   "display_name": "Tinted Glass"
+  },
+  "tuff_brick_slab": {
+   "label": "tuff_brick_slab",
+   "level": 3,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "tuff_bricks"
+   ],
+   "display_name": "Tuff Brick Slab"
+  },
+  "tuff_brick_stairs": {
+   "label": "tuff_brick_stairs",
+   "level": 3,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "tuff_bricks"
+   ],
+   "display_name": "Tuff Brick Stairs"
+  },
+  "tuff_brick_wall": {
+   "label": "tuff_brick_wall",
+   "level": 3,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "tuff_bricks"
+   ],
+   "display_name": "Tuff Brick Wall"
+  },
+  "tuff_bricks": {
+   "label": "tuff_bricks",
+   "level": 2,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "polished_tuff"
+   ],
+   "display_name": "Tuff Bricks"
+  },
+  "tuff_slab": {
+   "label": "tuff_slab",
+   "level": 1,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "tuff"
+   ],
+   "display_name": "Tuff Slab"
+  },
+  "tuff_stairs": {
+   "label": "tuff_stairs",
+   "level": 1,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "tuff"
+   ],
+   "display_name": "Tuff Stairs"
+  },
+  "tuff_wall": {
+   "label": "tuff_wall",
+   "level": 1,
+   "leaves": [
+    "tuff"
+   ],
+   "direct": [
+    "tuff"
+   ],
+   "display_name": "Tuff Wall"
+  },
+  "turtle_helmet": {
+   "label": "turtle_helmet",
+   "level": 1,
+   "leaves": [
+    "turtle_scute"
+   ],
+   "direct": [
+    "turtle_scute"
+   ],
+   "display_name": "Turtle Shell"
+  },
+  "warped_door": {
+   "label": "warped_door",
+   "level": 2,
+   "leaves": [
+    "warped_stem"
+   ],
+   "direct": [
+    "warped_planks"
+   ],
+   "display_name": "Warped Door"
+  },
+  "warped_hyphae": {
+   "label": "warped_hyphae",
+   "level": 1,
+   "leaves": [
+    "warped_stem"
+   ],
+   "direct": [
+    "warped_stem"
+   ],
+   "display_name": "Warped Hyphae"
+  },
+  "warped_pressure_plate": {
+   "label": "warped_pressure_plate",
+   "level": 2,
+   "leaves": [
+    "warped_stem"
+   ],
+   "direct": [
+    "warped_planks"
+   ],
+   "display_name": "Warped Pressure Plate"
+  },
+  "warped_shelf": {
+   "label": "warped_shelf",
+   "level": 1,
+   "leaves": [
+    "stripped_warped_stem"
+   ],
+   "direct": [
+    "stripped_warped_stem"
+   ],
+   "display_name": "Warped Shelf"
+  },
+  "warped_slab": {
+   "label": "warped_slab",
+   "level": 2,
+   "leaves": [
+    "warped_stem"
+   ],
+   "direct": [
+    "warped_planks"
+   ],
+   "display_name": "Warped Slab"
+  },
+  "warped_stairs": {
+   "label": "warped_stairs",
+   "level": 2,
+   "leaves": [
+    "warped_stem"
+   ],
+   "direct": [
+    "warped_planks"
+   ],
+   "display_name": "Warped Stairs"
+  },
+  "warped_trapdoor": {
+   "label": "warped_trapdoor",
+   "level": 2,
+   "leaves": [
+    "warped_stem"
+   ],
+   "direct": [
+    "warped_planks"
+   ],
+   "display_name": "Warped Trapdoor"
+  },
+  "weathered_chiseled_copper": {
+   "label": "weathered_chiseled_copper",
+   "level": 3,
+   "leaves": [
+    "weathered_copper"
+   ],
+   "direct": [
+    "weathered_cut_copper_slab"
+   ],
+   "display_name": "Weathered Chiseled Copper"
+  },
+  "weathered_copper_grate": {
+   "label": "weathered_copper_grate",
+   "level": 1,
+   "leaves": [
+    "weathered_copper"
+   ],
+   "direct": [
+    "weathered_copper"
+   ],
+   "display_name": "Weathered Copper Grate"
+  },
+  "weathered_cut_copper": {
+   "label": "weathered_cut_copper",
+   "level": 1,
+   "leaves": [
+    "weathered_copper"
+   ],
+   "direct": [
+    "weathered_copper"
+   ],
+   "display_name": "Weathered Cut Copper"
+  },
+  "weathered_cut_copper_slab": {
+   "label": "weathered_cut_copper_slab",
+   "level": 2,
+   "leaves": [
+    "weathered_copper"
+   ],
+   "direct": [
+    "weathered_cut_copper"
+   ],
+   "display_name": "Weathered Cut Copper Slab"
+  },
+  "weathered_cut_copper_stairs": {
+   "label": "weathered_cut_copper_stairs",
+   "level": 2,
+   "leaves": [
+    "weathered_copper"
+   ],
+   "direct": [
+    "weathered_cut_copper"
+   ],
+   "display_name": "Weathered Cut Copper Stairs"
+  },
+  "wolf_armor": {
+   "label": "wolf_armor",
+   "level": 1,
+   "leaves": [
+    "armadillo_scute"
+   ],
+   "direct": [
+    "armadillo_scute"
+   ],
+   "display_name": "Wolf Armor"
+  },
+  "granite": {
+   "label": "granite",
+   "level": 2,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "diorite",
+    "quartz"
+   ],
+   "display_name": "Granite"
+  },
+  "andesite": {
+   "label": "andesite",
+   "level": 2,
+   "leaves": [
+    "cobblestone",
+    "quartz"
+   ],
+   "direct": [
+    "cobblestone",
+    "diorite"
+   ],
+   "display_name": "Andesite"
+  },
+  "book": {
+   "label": "book",
+   "level": 2,
+   "leaves": [
+    "rabbit_hide",
+    "sugar_cane"
+   ],
+   "direct": [
+    "leather",
+    "paper"
+   ],
+   "display_name": "Book"
+  },
+  "packed_ice": {
+   "label": "packed_ice",
+   "level": 1,
+   "leaves": [
+    "ice"
+   ],
+   "direct": [
+    "ice"
+   ],
+   "display_name": "Packed Ice"
+  },
+  "oak_planks": {
+   "label": "oak_planks",
+   "level": 1,
+   "leaves": [
+    "oak_log"
+   ],
+   "direct": [
+    "oak_log"
+   ],
+   "display_name": "Oak Planks"
+  },
+  "spruce_planks": {
+   "label": "spruce_planks",
+   "level": 1,
+   "leaves": [
+    "spruce_log"
+   ],
+   "direct": [
+    "spruce_log"
+   ],
+   "display_name": "Spruce Planks"
+  },
+  "birch_planks": {
+   "label": "birch_planks",
+   "level": 1,
+   "leaves": [
+    "birch_log"
+   ],
+   "direct": [
+    "birch_log"
+   ],
+   "display_name": "Birch Planks"
+  },
+  "jungle_planks": {
+   "label": "jungle_planks",
+   "level": 1,
+   "leaves": [
+    "jungle_log"
+   ],
+   "direct": [
+    "jungle_log"
+   ],
+   "display_name": "Jungle Planks"
+  },
+  "acacia_planks": {
+   "label": "acacia_planks",
+   "level": 1,
+   "leaves": [
+    "acacia_log"
+   ],
+   "direct": [
+    "acacia_log"
+   ],
+   "display_name": "Acacia Planks"
+  },
+  "cherry_planks": {
+   "label": "cherry_planks",
+   "level": 1,
+   "leaves": [
+    "cherry_log"
+   ],
+   "direct": [
+    "cherry_log"
+   ],
+   "display_name": "Cherry Planks"
+  },
+  "dark_oak_planks": {
+   "label": "dark_oak_planks",
+   "level": 1,
+   "leaves": [
+    "dark_oak_log"
+   ],
+   "direct": [
+    "dark_oak_log"
+   ],
+   "display_name": "Dark Oak Planks"
+  },
+  "pale_oak_planks": {
+   "label": "pale_oak_planks",
+   "level": 1,
+   "leaves": [
+    "pale_oak_log"
+   ],
+   "direct": [
+    "pale_oak_log"
+   ],
+   "display_name": "Pale Oak Planks"
+  },
+  "mangrove_planks": {
+   "label": "mangrove_planks",
+   "level": 1,
+   "leaves": [
+    "mangrove_log"
+   ],
+   "direct": [
+    "mangrove_log"
+   ],
+   "display_name": "Mangrove Planks"
+  },
+  "bamboo_planks": {
+   "label": "bamboo_planks",
+   "level": 2,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_block"
+   ],
+   "display_name": "Bamboo Planks"
+  },
+  "crimson_planks": {
+   "label": "crimson_planks",
+   "level": 1,
+   "leaves": [
+    "crimson_stem"
+   ],
+   "direct": [
+    "crimson_stem"
+   ],
+   "display_name": "Crimson Planks"
+  },
+  "warped_planks": {
+   "label": "warped_planks",
+   "level": 1,
+   "leaves": [
+    "warped_stem"
+   ],
+   "direct": [
+    "warped_stem"
+   ],
+   "display_name": "Warped Planks"
+  },
+  "prismarine_bricks": {
+   "label": "prismarine_bricks",
+   "level": 1,
+   "leaves": [
+    "prismarine_shard"
+   ],
+   "direct": [
+    "prismarine_shard"
+   ],
+   "display_name": "Prismarine Bricks"
+  },
+  "brown_dye": {
+   "label": "brown_dye",
+   "level": 1,
+   "leaves": [
+    "cocoa_beans"
+   ],
+   "direct": [
+    "cocoa_beans"
+   ],
+   "display_name": "Brown Dye"
+  },
+  "nether_wart_block": {
+   "label": "nether_wart_block",
+   "level": 1,
+   "leaves": [
+    "nether_wart"
+   ],
+   "direct": [
+    "nether_wart"
+   ],
+   "display_name": "Nether Wart Block"
+  },
+  "pumpkin_seeds": {
+   "label": "pumpkin_seeds",
+   "level": 1,
+   "leaves": [
+    "pumpkin"
+   ],
+   "direct": [
+    "pumpkin"
+   ],
+   "display_name": "Pumpkin Seeds"
+  },
+  "melon_seeds": {
+   "label": "melon_seeds",
+   "level": 1,
+   "leaves": [
+    "melon_slice"
+   ],
+   "direct": [
+    "melon_slice"
+   ],
+   "display_name": "Melon Seeds"
+  },
+  "blaze_powder": {
+   "label": "blaze_powder",
+   "level": 1,
+   "leaves": [
+    "blaze_rod"
+   ],
+   "direct": [
+    "blaze_rod"
+   ],
+   "display_name": "Blaze Powder"
+  },
+  "ender_eye": {
+   "label": "ender_eye",
+   "level": 2,
+   "leaves": [
+    "blaze_rod",
+    "ender_pearl"
+   ],
+   "direct": [
+    "blaze_powder",
+    "ender_pearl"
+   ],
+   "display_name": "Eye of Ender"
+  },
+  "waxed_exposed_copper": {
+   "label": "waxed_exposed_copper",
+   "level": 1,
+   "leaves": [
+    "exposed_copper",
+    "honeycomb"
+   ],
+   "direct": [
+    "exposed_copper",
+    "honeycomb"
+   ],
+   "display_name": "Waxed Exposed Copper"
+  },
+  "waxed_weathered_copper": {
+   "label": "waxed_weathered_copper",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "weathered_copper"
+   ],
+   "direct": [
+    "honeycomb",
+    "weathered_copper"
+   ],
+   "display_name": "Waxed Weathered Copper"
+  },
+  "waxed_oxidized_copper": {
+   "label": "waxed_oxidized_copper",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "oxidized_copper"
+   ],
+   "direct": [
+    "honeycomb",
+    "oxidized_copper"
+   ],
+   "display_name": "Waxed Oxidized Copper"
+  },
+  "brown_concrete_powder": {
+   "label": "brown_concrete_powder",
+   "level": 2,
+   "leaves": [
+    "cocoa_beans",
+    "gravel",
+    "sand"
+   ],
+   "direct": [
+    "brown_dye",
+    "gravel",
+    "sand"
+   ],
+   "display_name": "Brown Concrete Powder"
+  },
+  "green_concrete_powder": {
+   "label": "green_concrete_powder",
+   "level": 1,
+   "leaves": [
+    "gravel",
+    "green_dye",
+    "sand"
+   ],
+   "direct": [
+    "gravel",
+    "green_dye",
+    "sand"
+   ],
+   "display_name": "Green Concrete Powder"
+  },
+  "muddy_mangrove_roots": {
+   "label": "muddy_mangrove_roots",
+   "level": 1,
+   "leaves": [
+    "mangrove_roots",
+    "mud"
+   ],
+   "direct": [
+    "mangrove_roots",
+    "mud"
+   ],
+   "display_name": "Muddy Mangrove Roots"
+  },
+  "bamboo_block": {
+   "label": "bamboo_block",
+   "level": 1,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo"
+   ],
+   "display_name": "Block of Bamboo"
+  },
+  "blue_ice": {
+   "label": "blue_ice",
+   "level": 2,
+   "leaves": [
+    "ice"
+   ],
+   "direct": [
+    "packed_ice"
+   ],
+   "display_name": "Blue Ice"
+  },
+  "wind_charge": {
+   "label": "wind_charge",
+   "level": 1,
+   "leaves": [
+    "breeze_rod"
+   ],
+   "direct": [
+    "breeze_rod"
+   ],
+   "display_name": "Wind Charge"
+  },
+  "writable_book": {
+   "label": "writable_book",
+   "level": 3,
+   "leaves": [
+    "feather",
+    "ink_sac",
+    "rabbit_hide",
+    "sugar_cane"
+   ],
+   "direct": [
+    "book",
+    "feather",
+    "ink_sac"
+   ],
+   "display_name": "Book and Quill"
+  },
+  "firework_rocket": {
+   "label": "firework_rocket",
+   "level": 2,
+   "leaves": [
+    "gunpowder",
+    "sugar_cane"
+   ],
+   "direct": [
+    "gunpowder",
+    "paper"
+   ],
+   "display_name": "Firework Rocket"
+  },
+  "waxed_exposed_lightning_rod": {
+   "label": "waxed_exposed_lightning_rod",
+   "level": 1,
+   "leaves": [
+    "exposed_lightning_rod",
+    "honeycomb"
+   ],
+   "direct": [
+    "exposed_lightning_rod",
+    "honeycomb"
+   ],
+   "display_name": "Waxed Exposed Lightning Rod"
+  },
+  "waxed_weathered_lightning_rod": {
+   "label": "waxed_weathered_lightning_rod",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "weathered_lightning_rod"
+   ],
+   "direct": [
+    "honeycomb",
+    "weathered_lightning_rod"
+   ],
+   "display_name": "Waxed Weathered Lightning Rod"
+  },
+  "waxed_oxidized_lightning_rod": {
+   "label": "waxed_oxidized_lightning_rod",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "oxidized_lightning_rod"
+   ],
+   "direct": [
+    "honeycomb",
+    "oxidized_lightning_rod"
+   ],
+   "display_name": "Waxed Oxidized Lightning Rod"
+  },
+  "stone_button": {
+   "label": "stone_button",
+   "level": 1,
+   "leaves": [
+    "stone"
+   ],
+   "direct": [
+    "stone"
+   ],
+   "display_name": "Stone Button"
+  },
+  "polished_blackstone_button": {
+   "label": "polished_blackstone_button",
+   "level": 2,
+   "leaves": [
+    "blackstone"
+   ],
+   "direct": [
+    "polished_blackstone"
+   ],
+   "display_name": "Polished Blackstone Button"
+  },
+  "oak_button": {
+   "label": "oak_button",
+   "level": 2,
+   "leaves": [
+    "oak_log"
+   ],
+   "direct": [
+    "oak_planks"
+   ],
+   "display_name": "Oak Button"
+  },
+  "spruce_button": {
+   "label": "spruce_button",
+   "level": 2,
+   "leaves": [
+    "spruce_log"
+   ],
+   "direct": [
+    "spruce_planks"
+   ],
+   "display_name": "Spruce Button"
+  },
+  "birch_button": {
+   "label": "birch_button",
+   "level": 2,
+   "leaves": [
+    "birch_log"
+   ],
+   "direct": [
+    "birch_planks"
+   ],
+   "display_name": "Birch Button"
+  },
+  "jungle_button": {
+   "label": "jungle_button",
+   "level": 2,
+   "leaves": [
+    "jungle_log"
+   ],
+   "direct": [
+    "jungle_planks"
+   ],
+   "display_name": "Jungle Button"
+  },
+  "acacia_button": {
+   "label": "acacia_button",
+   "level": 2,
+   "leaves": [
+    "acacia_log"
+   ],
+   "direct": [
+    "acacia_planks"
+   ],
+   "display_name": "Acacia Button"
+  },
+  "cherry_button": {
+   "label": "cherry_button",
+   "level": 2,
+   "leaves": [
+    "cherry_log"
+   ],
+   "direct": [
+    "cherry_planks"
+   ],
+   "display_name": "Cherry Button"
+  },
+  "dark_oak_button": {
+   "label": "dark_oak_button",
+   "level": 2,
+   "leaves": [
+    "dark_oak_log"
+   ],
+   "direct": [
+    "dark_oak_planks"
+   ],
+   "display_name": "Dark Oak Button"
+  },
+  "pale_oak_button": {
+   "label": "pale_oak_button",
+   "level": 2,
+   "leaves": [
+    "pale_oak_log"
+   ],
+   "direct": [
+    "pale_oak_planks"
+   ],
+   "display_name": "Pale Oak Button"
+  },
+  "mangrove_button": {
+   "label": "mangrove_button",
+   "level": 2,
+   "leaves": [
+    "mangrove_log"
+   ],
+   "direct": [
+    "mangrove_planks"
+   ],
+   "display_name": "Mangrove Button"
+  },
+  "bamboo_button": {
+   "label": "bamboo_button",
+   "level": 3,
+   "leaves": [
+    "bamboo"
+   ],
+   "direct": [
+    "bamboo_planks"
+   ],
+   "display_name": "Bamboo Button"
+  },
+  "crimson_button": {
+   "label": "crimson_button",
+   "level": 2,
+   "leaves": [
+    "crimson_stem"
+   ],
+   "direct": [
+    "crimson_planks"
+   ],
+   "display_name": "Crimson Button"
+  },
+  "warped_button": {
+   "label": "warped_button",
+   "level": 2,
+   "leaves": [
+    "warped_stem"
+   ],
+   "direct": [
+    "warped_planks"
+   ],
+   "display_name": "Warped Button"
+  },
+  "waxed_exposed_copper_door": {
+   "label": "waxed_exposed_copper_door",
+   "level": 1,
+   "leaves": [
+    "exposed_copper_door",
+    "honeycomb"
+   ],
+   "direct": [
+    "exposed_copper_door",
+    "honeycomb"
+   ],
+   "display_name": "Waxed Exposed Copper Door"
+  },
+  "waxed_weathered_copper_door": {
+   "label": "waxed_weathered_copper_door",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "weathered_copper_door"
+   ],
+   "direct": [
+    "honeycomb",
+    "weathered_copper_door"
+   ],
+   "display_name": "Waxed Weathered Copper Door"
+  },
+  "waxed_oxidized_copper_door": {
+   "label": "waxed_oxidized_copper_door",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "oxidized_copper_door"
+   ],
+   "direct": [
+    "honeycomb",
+    "oxidized_copper_door"
+   ],
+   "display_name": "Waxed Oxidized Copper Door"
+  },
+  "music_disc_5": {
+   "label": "music_disc_5",
+   "level": 1,
+   "leaves": [
+    "disc_fragment_5"
+   ],
+   "direct": [
+    "disc_fragment_5"
+   ],
+   "display_name": "Music Disc"
+  },
+  "waxed_exposed_copper_trapdoor": {
+   "label": "waxed_exposed_copper_trapdoor",
+   "level": 1,
+   "leaves": [
+    "exposed_copper_trapdoor",
+    "honeycomb"
+   ],
+   "direct": [
+    "exposed_copper_trapdoor",
+    "honeycomb"
+   ],
+   "display_name": "Waxed Exposed Copper Trapdoor"
+  },
+  "waxed_weathered_copper_trapdoor": {
+   "label": "waxed_weathered_copper_trapdoor",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "weathered_copper_trapdoor"
+   ],
+   "direct": [
+    "honeycomb",
+    "weathered_copper_trapdoor"
+   ],
+   "display_name": "Waxed Weathered Copper Trapdoor"
+  },
+  "waxed_oxidized_copper_trapdoor": {
+   "label": "waxed_oxidized_copper_trapdoor",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "oxidized_copper_trapdoor"
+   ],
+   "direct": [
+    "honeycomb",
+    "oxidized_copper_trapdoor"
+   ],
+   "display_name": "Waxed Oxidized Copper Trapdoor"
+  },
+  "flower_banner_pattern": {
+   "label": "flower_banner_pattern",
+   "level": 2,
+   "leaves": [
+    "oxeye_daisy",
+    "sugar_cane"
+   ],
+   "direct": [
+    "oxeye_daisy",
+    "paper"
+   ],
+   "display_name": "Flower Charge Banner Pattern"
+  },
+  "creeper_banner_pattern": {
+   "label": "creeper_banner_pattern",
+   "level": 2,
+   "leaves": [
+    "creeper_head",
+    "sugar_cane"
+   ],
+   "direct": [
+    "creeper_head",
+    "paper"
+   ],
+   "display_name": "Creeper Charge Banner Pattern"
+  },
+  "skull_banner_pattern": {
+   "label": "skull_banner_pattern",
+   "level": 2,
+   "leaves": [
+    "sugar_cane",
+    "wither_skeleton_skull"
+   ],
+   "direct": [
+    "paper",
+    "wither_skeleton_skull"
+   ],
+   "display_name": "Skull Charge Banner Pattern"
+  },
+  "mojang_banner_pattern": {
+   "label": "mojang_banner_pattern",
+   "level": 2,
+   "leaves": [
+    "enchanted_golden_apple",
+    "sugar_cane"
+   ],
+   "direct": [
+    "enchanted_golden_apple",
+    "paper"
+   ],
+   "display_name": "Thing Banner Pattern"
+  },
+  "field_masoned_banner_pattern": {
+   "label": "field_masoned_banner_pattern",
+   "level": 2,
+   "leaves": [
+    "brick",
+    "sugar_cane"
+   ],
+   "direct": [
+    "bricks",
+    "paper"
+   ],
+   "display_name": "Field Masoned Banner Pattern"
+  },
+  "bordure_indented_banner_pattern": {
+   "label": "bordure_indented_banner_pattern",
+   "level": 2,
+   "leaves": [
+    "sugar_cane",
+    "vine"
+   ],
+   "direct": [
+    "paper",
+    "vine"
+   ],
+   "display_name": "Bordure Indented Banner Pattern"
+  },
+  "waxed_exposed_copper_lantern": {
+   "label": "waxed_exposed_copper_lantern",
+   "level": 1,
+   "leaves": [
+    "exposed_copper_lantern",
+    "honeycomb"
+   ],
+   "direct": [
+    "exposed_copper_lantern",
+    "honeycomb"
+   ],
+   "display_name": "Waxed Exposed Copper Lantern"
+  },
+  "waxed_weathered_copper_lantern": {
+   "label": "waxed_weathered_copper_lantern",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "weathered_copper_lantern"
+   ],
+   "direct": [
+    "honeycomb",
+    "weathered_copper_lantern"
+   ],
+   "display_name": "Waxed Weathered Copper Lantern"
+  },
+  "waxed_oxidized_copper_lantern": {
+   "label": "waxed_oxidized_copper_lantern",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "oxidized_copper_lantern"
+   ],
+   "direct": [
+    "honeycomb",
+    "oxidized_copper_lantern"
+   ],
+   "display_name": "Waxed Oxidized Copper Lantern"
+  },
+  "brown_candle": {
+   "label": "brown_candle",
+   "level": 2,
+   "leaves": [
+    "cocoa_beans",
+    "honeycomb",
+    "string"
+   ],
+   "direct": [
+    "brown_dye",
+    "candle"
+   ],
+   "display_name": "Brown Candle"
+  },
+  "green_candle": {
+   "label": "green_candle",
+   "level": 2,
+   "leaves": [
+    "green_dye",
+    "honeycomb",
+    "string"
+   ],
+   "direct": [
+    "candle",
+    "green_dye"
+   ],
+   "display_name": "Green Candle"
+  },
+  "waxed_exposed_copper_bars": {
+   "label": "waxed_exposed_copper_bars",
+   "level": 1,
+   "leaves": [
+    "exposed_copper_bars",
+    "honeycomb"
+   ],
+   "direct": [
+    "exposed_copper_bars",
+    "honeycomb"
+   ],
+   "display_name": "Waxed Exposed Copper Bars"
+  },
+  "waxed_weathered_copper_bars": {
+   "label": "waxed_weathered_copper_bars",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "weathered_copper_bars"
+   ],
+   "direct": [
+    "honeycomb",
+    "weathered_copper_bars"
+   ],
+   "display_name": "Waxed Weathered Copper Bars"
+  },
+  "waxed_oxidized_copper_bars": {
+   "label": "waxed_oxidized_copper_bars",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "oxidized_copper_bars"
+   ],
+   "direct": [
+    "honeycomb",
+    "oxidized_copper_bars"
+   ],
+   "display_name": "Waxed Oxidized Copper Bars"
+  },
+  "waxed_exposed_copper_chain": {
+   "label": "waxed_exposed_copper_chain",
+   "level": 1,
+   "leaves": [
+    "exposed_copper_chain",
+    "honeycomb"
+   ],
+   "direct": [
+    "exposed_copper_chain",
+    "honeycomb"
+   ],
+   "display_name": "Waxed Exposed Copper Chain"
+  },
+  "waxed_weathered_copper_chain": {
+   "label": "waxed_weathered_copper_chain",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "weathered_copper_chain"
+   ],
+   "direct": [
+    "honeycomb",
+    "weathered_copper_chain"
+   ],
+   "display_name": "Waxed Weathered Copper Chain"
+  },
+  "waxed_oxidized_copper_chain": {
+   "label": "waxed_oxidized_copper_chain",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "oxidized_copper_chain"
+   ],
+   "direct": [
+    "honeycomb",
+    "oxidized_copper_chain"
+   ],
+   "display_name": "Waxed Oxidized Copper Chain"
+  },
+  "melon": {
+   "label": "melon",
+   "level": 1,
+   "leaves": [
+    "melon_slice"
+   ],
+   "direct": [
+    "melon_slice"
+   ],
+   "display_name": "Melon"
+  },
+  "waxed_exposed_copper_chest": {
+   "label": "waxed_exposed_copper_chest",
+   "level": 1,
+   "leaves": [
+    "exposed_copper_chest",
+    "honeycomb"
+   ],
+   "direct": [
+    "exposed_copper_chest",
+    "honeycomb"
+   ],
+   "display_name": "Waxed Exposed Copper Chest"
+  },
+  "waxed_weathered_copper_chest": {
+   "label": "waxed_weathered_copper_chest",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "weathered_copper_chest"
+   ],
+   "direct": [
+    "honeycomb",
+    "weathered_copper_chest"
+   ],
+   "display_name": "Waxed Weathered Copper Chest"
+  },
+  "waxed_oxidized_copper_chest": {
+   "label": "waxed_oxidized_copper_chest",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "oxidized_copper_chest"
+   ],
+   "direct": [
+    "honeycomb",
+    "oxidized_copper_chest"
+   ],
+   "display_name": "Waxed Oxidized Copper Chest"
+  },
+  "waxed_copper_golem_statue": {
+   "label": "waxed_copper_golem_statue",
+   "level": 1,
+   "leaves": [
+    "copper_golem_statue",
+    "honeycomb"
+   ],
+   "direct": [
+    "copper_golem_statue",
+    "honeycomb"
+   ],
+   "display_name": "Waxed Copper Golem Statue"
+  },
+  "waxed_exposed_copper_golem_statue": {
+   "label": "waxed_exposed_copper_golem_statue",
+   "level": 1,
+   "leaves": [
+    "exposed_copper_golem_statue",
+    "honeycomb"
+   ],
+   "direct": [
+    "exposed_copper_golem_statue",
+    "honeycomb"
+   ],
+   "display_name": "Waxed Exposed Copper Golem Statue"
+  },
+  "waxed_weathered_copper_golem_statue": {
+   "label": "waxed_weathered_copper_golem_statue",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "weathered_copper_golem_statue"
+   ],
+   "direct": [
+    "honeycomb",
+    "weathered_copper_golem_statue"
+   ],
+   "display_name": "Waxed Weathered Copper Golem Statue"
+  },
+  "waxed_oxidized_copper_golem_statue": {
+   "label": "waxed_oxidized_copper_golem_statue",
+   "level": 1,
+   "leaves": [
+    "honeycomb",
+    "oxidized_copper_golem_statue"
+   ],
+   "direct": [
+    "honeycomb",
+    "oxidized_copper_golem_statue"
+   ],
+   "display_name": "Waxed Oxidized Copper Golem Statue"
+  }
+ }
+}
