@@ -28,6 +28,7 @@ def main():
     ap.add_argument("--host", default=os.environ.get("OLLAMA_HOST", "http://localhost:11434"))
     ap.add_argument("--seed", type=int, default=20260905)
     ap.add_argument("--limit", type=int, default=0, help="疎通確認用に問題数を絞る")
+    ap.add_argument("--think", action="store_true", help="推論を有効にする (出力上限も上げる)")
     ap.add_argument("--out", default=None)
     a = ap.parse_args()
 
@@ -57,7 +58,9 @@ def main():
                 prompt = prompts.MINECRAFT.format(name=item["display_name"], context=ctx)
                 try:
                     txt = (runner.ask_anthropic(model, prompt) if model.startswith("claude")
-                           else runner.ask_ollama(model, prompt, a.host))
+                           else runner.ask_ollama(model, prompt, a.host,
+                                                  num_predict=1500 if a.think else 300,
+                                                  think=a.think, timeout=300))
                     err = None
                 except Exception as e:
                     txt, err = "", f"{type(e).__name__}: {e}"
@@ -72,7 +75,7 @@ def main():
 
     out = {
         "dataset": a.dataset, "dataset_version": ds["version"], "seed": a.seed,
-        "sample_size": len(sample), "elapsed_sec": round(time.time() - t0, 1),
+        "sample_size": len(sample), "think": a.think, "elapsed_sec": round(time.time() - t0, 1),
         "sample_by_level": {str(l): sum(1 for s in sample if items[s]["level"] == l)
                             for l in sorted(DEFAULT_SAMPLE)},
         "rows": rows,

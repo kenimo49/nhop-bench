@@ -3,3 +3,6 @@ data/
 __pycache__/
 *.pyc
 .env
+
+# 実験中に出るログ
+*.log
